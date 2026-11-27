@@ -21,6 +21,7 @@
 
 - [weiqi-ai](https://github.com/hhxx6666/weiqi-ai) — 浏览器里的围棋 AI，实时胜率曲线 + 教学提示，单文件零依赖。[在线试玩](https://hhxx6666.github.io/weiqi-ai/)
 - [glanceproof](https://github.com/hhxx6666/glanceproof) — 主动视觉工作台：首帧证据不足时让相机换个角度，再把答案挂到支撑它的那一帧上。
+- [touch-to-act](https://github.com/hhxx6666/touch-to-act) — 触觉试探实验：三只等重的不透明杯，靠试探判断里面什么在动，并对照不同的试探预算。
 - [diana-live-like](https://github.com/hhxx6666/diana-live-like) — 一个 manifest v3 扩展的实践。
 
 ### 联系
