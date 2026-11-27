@@ -10,12 +10,12 @@
 
 | 项目 | 做什么 | 从这里开始 |
 | --- | --- | --- |
-| [RailTrace](https://github.com/hhxx6666/railtrace) | 用示波器或仿真 CSV 做电源上电时序回归，输出带波形与限值的 HTML 报告 | [跑通过与失败的波形样例](https://github.com/hhxx6666/railtrace#try-the-examples) |
-| [TraceLab CSV](https://github.com/hhxx6666/tracelab-csv) | 在浏览器按触发事件对齐两次实验，定位超差区间并导出离线报告 | [打开在线工具，载入电机样例](https://hhxx6666.github.io/tracelab-csv/) |
-| [FaultReplay Agent](https://github.com/hhxx6666/faultreplay-agent) | 在回放预算内缩减能复现同一断言失败的事件序列，导出 pytest 回归 | [运行离线回放示例](https://github.com/hhxx6666/faultreplay-agent#verify-the-corridor-light-regression) |
-| [Upgrade Rehearsal](https://github.com/hhxx6666/upgrade-rehearsal) | 在隔离的 Docker Compose 里验证 Immich 升级路径，按 SHA-256 校验选定原图 | [查看真实 Docker 集成运行](https://github.com/hhxx6666/upgrade-rehearsal/actions/runs/46001628557) |
+| [RailTrace](https://github.com/hhxx6666/railtrace) | **采集** · 用示波器或仿真 CSV 做电源上电时序回归，输出带波形与限值的 HTML 报告 | [跑通过与失败的波形样例](https://github.com/hhxx6666/railtrace#try-the-examples) |
+| [TraceLab CSV](https://github.com/hhxx6666/tracelab-csv) | **对齐** · 在浏览器按触发事件对齐两次实验，定位超差区间并导出离线报告 | [打开在线工具，载入电机样例](https://hhxx6666.github.io/tracelab-csv/) |
+| [FaultReplay Agent](https://github.com/hhxx6666/faultreplay-agent) | **缩减** · 在回放预算内缩减能复现同一断言失败的事件序列，导出 pytest 回归 | [运行离线回放示例](https://github.com/hhxx6666/faultreplay-agent#verify-the-corridor-light-regression) |
+| [Upgrade Rehearsal](https://github.com/hhxx6666/upgrade-rehearsal) | **演练** · 在隔离的 Docker Compose 里验证 Immich 升级路径，按 SHA-256 校验选定原图 | [读一份真实的集成验证报告](https://github.com/hhxx6666/upgrade-rehearsal/blob/main/docs/docker-demo/report.md) |
 
-这四个项目都采用 MIT 协议，并附测试套件与 CI。工具对你的工作有帮助，欢迎给对应仓库点个 Star。如果碰到无法处理的采样或日志格式，也欢迎开 Issue，附上能复现问题的最小样例。
+这四个项目串起来就是一条链：采集 → 对齐 → 缩减 → 演练。都采用 MIT 协议，并附测试套件与 CI。如果这些工具对你的工作有帮助，欢迎给对应仓库点个 Star；遇到处理不了的采样或日志格式，也欢迎开 Issue，并附上能复现问题的最小样例。
 
 ### 另外几个，纯属好玩
 
