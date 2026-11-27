@@ -17,9 +17,10 @@
 
 都是零依赖或低依赖的命令行工具，MIT 协议，可商用。每个仓库都有测试套件和 CI。
 
-### 另外两个，纯属好玩
+### 另外几个，纯属好玩
 
 - [weiqi-ai](https://github.com/hhxx6666/weiqi-ai) — 浏览器里的围棋 AI，实时胜率曲线 + 教学提示，单文件零依赖。[在线试玩](https://hhxx6666.github.io/weiqi-ai/)
+- [glanceproof](https://github.com/hhxx6666/glanceproof) — 主动视觉工作台：首帧证据不足时让相机换个角度，再把答案挂到支撑它的那一帧上。
 - [diana-live-like](https://github.com/hhxx6666/diana-live-like) — 一个 manifest v3 扩展的实践。
 
 ### 联系
